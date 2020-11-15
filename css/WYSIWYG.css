@@ -123,12 +123,12 @@ body.fullscreen #footer {
     display: block;
     bottom: 0;
     padding-bottom: 3.5em;
-    /* right: 0; */
+    right: 0;
     z-index: 3;
     color: white;
     text-align: right;
-    /* padding: 2em 4.5% 0; */
-    padding: 2em;
+    padding: 2em 4.5% 0;
+    /* padding: 2em; */
 }
 
 

@@ -1,13 +1,13 @@
 # Site settings
 title: KaraMudie
-email: "kara@karamudie.co.uk"
+# email: "kara@karamudie.co.uk"
 description: "Photo Journal"
 url: "https://wildaye.github.io"
 baseurl: "/karamudie.co.uk"
 facebook_username: "KaraMudiePhotography"
-twitter_username: "karmupix"
+# twitter_username: "karmupix"
 instagram_username: "karmupix"
-github_username:  "wildaye"
+# github_username:  "wildaye"
 #deviantart_username: ""
 #flickr_username: ""
 #discus_shortname: ""
