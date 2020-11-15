@@ -1,6 +1,6 @@
 # karamudie.co.uk
 
-This is a github site operated by photographer Kara Hood (Kara Mudie). It will run on jekyll. The current template is [photorama](https://github.com/sunbliss/photorama) by 
+This is a github site operated by photographer Kara Hood (Kara Mudie). It will run on jekyll, built and served by github pages. The current template is [photorama](https://github.com/sunbliss/photorama) by 
 Anna Prigkipaki ([@sunbliss](https://github.com/sunbliss)).
 
 ## Template help information
@@ -12,22 +12,6 @@ Go to your domain name registrar and add a CNAME record pointing your domain to 
 - host: www.yourdomainname.com
 - answer: yourusername.github.io/repositoryname
 - TTL: 300
-
-----------
-
-Usage
-
-- The homepage welcomes the visitors with 3 animated photos of your choice. It is recommended that all three are landscape orientated for best view.
-
-To change the welcome content at the far left of the Home page go here: `/index.html` and fill the responding lines of the YAML with your desired text.
-
-----------
-
-- To enable **disqus** comments in the posts, change their front matter for comments to 'true'.
-
-You must have a registered account in disqus, where you will also register a forum for your website.
-
-Find the line `s.src = '//yourproject.disqus.com/embed.js';  // ` in the disqus_comments.html and REPLACE 'yourproject' with your forum shortname.
 
 ----------
 
@@ -49,7 +33,3 @@ If you want to use the matching **NEWSLETTER** template, you must always create 
 When you add a tag or a category name in the front matter of a post, don't forget to add the responding markdown files in /journal/tag/ folder and in /journal/category folder, so they can always render when browsing the journal or searching in the respective page.
 
 ----------
-
-Read <a href="https://sunbliss.github.io/photorama/journal/images-size-for-better-performance/">**this**</a> post if you want to ensure your website always loads fast.
-
-

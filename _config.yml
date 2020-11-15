@@ -4,7 +4,7 @@ email: "kara@karamudie.co.uk"
 description: "Photo Journal"
 url: "https://wildaye.github.io"
 baseurl: "/karamudie.co.uk"
-facebook_username: "karmupix"
+facebook_username: "KaraMudiePhotography"
 twitter_username: "karmupix"
 instagram_username: "karmupix"
 github_username:  "wildaye"
@@ -15,15 +15,15 @@ share: true
 
 # Owner/author information
 owner:
-  name:   WildAye
+  name:   Kara Hood
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Photographer
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
 # Set 'provider' to false to turn commenting off globally.
-#Set 'provider: false' to disable comments globally.
+# Set 'provider: false' to disable comments globally.
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
@@ -33,6 +33,7 @@ comments :
 
 # Internal nav
 nav:
+  - HOME: "/karamudie.co.uk/"
   - GALLERY: "/karamudie.co.uk/gallery/"  
   - JOURNAL: "/karamudie.co.uk/journal/"
   - ABOUT: "/karamudie.co.uk/about/"
@@ -43,14 +44,14 @@ translations:
   permalink: "/404.html"
 
 # Server
-destination:      	 ./_site
-port:             	 4000
+destination: ./_site
+port: 4000
 
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+# permalink: pretty
 paginate: 5
 paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
