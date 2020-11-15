@@ -43,7 +43,7 @@ translations:
   permalink: "/404.html"
 
 # Server
-destination:      	 ./docs
+destination:      	 ./_site
 port:             	 4000
 
 
