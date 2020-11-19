@@ -21,10 +21,10 @@ owner:
 
 # Internal nav
 nav:
-  - HOME: "/"
-  - GALLERY: "/gallery/"  
+  - HOME: "/karamudie.co.uk/"
+  - GALLERY: "/karamudie.co.uk/gallery/"  
 #  - JOURNAL: "/journal/"
-  - ABOUT: "/about/"
+  - ABOUT: "/karamudie.co.uk/about/"
 
 # All translation keys
 translations:
