@@ -1,7 +1,7 @@
 ---
 layout: page
-description: "Journal"
-title: "Writings"
+title: "Journal"
+description: "Articles and stories"
 active: journal
 header-img: "img/writing-bg.jpg"
 ---
@@ -12,11 +12,7 @@ header-img: "img/writing-bg.jpg"
 
 <body class="journal">
 <div class="archive">
-  <h1 class="archive-title" style="display:inline-block;"> POSTS </h1>
-
-<div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
-    Browse by <a href="{{ site.baseurl }}/journal/category/">Category</a> or <a href="{{ site.baseurl }}/journal/tag/">Tag</a>
-  </div>
+  <h1 class="archive-title" style="display:inline-block;"> Articles </h1>
 </div>
 
 <section class="section--postsWrapper">
@@ -36,13 +32,12 @@ header-img: "img/writing-bg.jpg"
 <div class="post-preview" style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #530720;">
     
 <a href="{{ post.url | prepend: site.baseurl }}">
-        {% if post.image.feature %}
-	<img src="{{ site.baseurl }}/img/postcover/{{ post.image.feature }}">
+  {% if post.feature-img %}
+	<img src="{{ site.baseurl }}/{{ post.feature-img }}">
 	{% endif %}
- 
- 
-        <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ post.title }}
-        </p>
+
+  <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ post.title }}
+  </p>
 </a>
         {% if post.subtitle %}
         <p class="post-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;"> {{ post.subtitle }}</p>

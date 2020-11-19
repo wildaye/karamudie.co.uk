@@ -4,3 +4,10 @@ This is a github site operated by photographer Kara Hood (Kara Mudie). It will r
 Anna Prigkipaki ([@sunbliss](https://github.com/sunbliss)).
 
 It is currently under development, so expect to see things that don't make sense.
+
+## Galleries
+
+* Landscapes
+* Living Things
+* Plant Life
+* Seascapes
