@@ -21,10 +21,10 @@ These depend on how many octothorpes you start the line with: one, for level 1, 
 
 I need to remember to separate paragraphs with a blank line. Other than that, it looks quite easy. I can even embed another picture if I want to:
 
-![]({{site.url}}{{site.baseurl}}/img/journal/Cast-Aside-Web.jpg)
+![]({{site.baseurl}}/img/journal/Cast-Aside-Web.jpg)
 *Cast aside*
 
-<!-- Notice in the body of the post, we have to add on "{{site.url}}{{site.baseurl}}/" for the image. -->
+<!-- Notice in the body of the post, we have to add on "{{site.baseurl}}/" for the image. -->
 
 <!-- 
 This is an HTML comment that will be sent to the browser but not normally displayed to the user. Everything bewteen the delimiters is a comment. Handy for your own notes, but remember whatever you put here can be seen in the browser by "view source".
