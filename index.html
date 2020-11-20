@@ -4,85 +4,54 @@ main-title: "Wild Aye Photography"
 #subtitle: "Photography"
 #description: "Photography and more"
 images:
- - image_path: /img/slider/DSF3806-1.jpg
-   gallery-folder: /img/slider/
- - image_path: /img/slider/DSCF8057 3.jpg
-   gallery-folder: /img/slider/
- - image_path: /img/slider/DSCF9532.jpg
-   gallery-folder: /img/slider/
- - image_path: /img/slider/DSCF8730 1.jpg
-   gallery-folder: /img/slider/
- - image_path: /img/slider/DSF3690-2.jpg
-   gallery-folder: /img/slider/
+ - /img/slider/DSF3806-1.jpg
+ - /img/slider/DSCF8057 3.jpg
+ - /img/slider/DSCF9532.jpg
+ - /img/slider/DSCF8730 1.jpg
+ - /img/slider/DSF3690-2.jpg
 ---
 
 <html class="no-js" lang="en">
 <head>
-	<meta content="charset=utf-8">
+<meta content="charset=utf-8">
 
 <!-- CSS -->
-     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" type="text/css" media="screen" />
-      <link rel="stylesheet" href="{{ site.baseurl }}/css/galleries.css" media="screen" />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/galleries.css" media="screen" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/WYSIWYG.css" media="screen" />
-
-
-
-	<!-- Modernizr -->
-  <script src="{{ site.baseurl }}/js/modernizr.js"></script>
-
-
-
-  
-
+<script src="{{ site.baseurl }}/js/modernizr.js"></script>
 </head>
 
 <body class="fullscreen">
+<section id="content" role="main">
+<div class="wrapper">
+	<!-- WYSIWYG -->
+	<div class="position-absolute">
+		<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
+		<h2>{{ page.subtitle }}</h2> 
+			<div class="entry-summary">
+			<p>{{ page.description }}</p>
+			</div><br />
+	</div>
 
-<!-- MAIN CONTENT SECTION  _____________________________________________-->
-	<section id="content" role="main">
-		<div class="wrapper">
-
-			<!-- WYSIWYG -->
-
-		<div class="position-absolute">
-				<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
-				<h2>{{ page.subtitle }}</h2> 
-                     <div class="entry-summary">
-							<p>{{ page.description }}</p>
-						</div><br />
-			</div>
-			
-			<div class="gallery fullscreen-gallery kenburns-gallery">
-
-				<canvas id="kenburns"></canvas>
-				
-{% for image in page.images %}  	
-
-				<figure class="gallery-item">
-					<header class='gallery-icon'>
-
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-	
-				</header>	
-				</figure>
-
-{% endfor %}
-
-				</div>
-			<!-- END WYSIWYG -->
-			
-	
-		</div><!-- END .wrapper -->
-		
-	</section>
+	<div class="gallery fullscreen-gallery kenburns-gallery">
+		<canvas id="kenburns"></canvas>				
+		{% for image in page.images %}  	
+		<figure class="gallery-item">
+			<header class='gallery-icon'>
+				<img src="{{ site.baseurl }}{{ image }}">
+			</header>	
+		</figure>
+		{% endfor %}
+	</div>
+</div><!-- END .wrapper -->
+</section>
   
 <!-- jQuery -->
-  <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-  <script src="{{ site.baseurl }}/js/retina.min.js"></script> 
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script> 
 
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
@@ -96,6 +65,6 @@ images:
 <script src="{{ site.baseurl }}/js/scripts.js"></script>
 
 
-       </body>
-    </html>
+</body>
+</html>
 
