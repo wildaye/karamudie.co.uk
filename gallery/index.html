@@ -4,9 +4,9 @@ title: "Gallery"
 description: "collections"
 active: gallery
 header-img: "img/gallery-bg.jpg"
-galleries:
- - image: DSC_0013-2.jpg
-   name: Landscapes
+collections:
+ - name: Landscape
+   image: DSC_0013-2.jpg
    date: July 2015
 ---
 
@@ -20,23 +20,23 @@ galleries:
  
 	<section id="content" role="main">
 		<div class="wrapper">
-			<h2>Galleries</h2>
+			<h2>Collections</h2>
 			<div class="gallery masonry-gallery">
 				
-{% for gallery in page.galleries %}  	
+{% for collection in page.collections %}  	
 
 	               <figure class="gallery-item">
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
 		       
-<a href="{{ site.baseurl }}/gallery/{{ gallery.name }}">
-<img src="{{ site.baseurl }}/gallery/{{ gallery.name }}/{{ gallery.image }}"></a>
+<a href="{{ site.baseurl }}/{{ collection.name }}">
+<img src="{{ site.baseurl }}/img/{{ collection.name }}/{{ collection.image }}"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
-							<h3>{{gallery.name}}</h3>
-							<p>{{gallery.date}}</p>
+							<h3>{{collection.name}}</h3>
+							<p>{{collection.date}}</p>
 						</div>
 					</figcaption>
                        </figure>
