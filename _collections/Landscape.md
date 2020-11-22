@@ -1,8 +1,10 @@
 ---
 layout: collection
 title: Landscape
+name: Landscape
+date: November 2020
 # description: 
-image: "DSC_0013-2.jpg"
+image: DSC_0013-2.jpg
 images:
  - file: DSCF0844-1-1.jpg
    caption: A landscape

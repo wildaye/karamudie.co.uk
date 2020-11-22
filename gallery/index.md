@@ -4,8 +4,8 @@ title: "Gallery"
 description: "collections"
 active: gallery
 header-img: "img/gallery-bg.jpg"
-collections:
+sets:
  - name: Landscape
    image: DSC_0013-2.jpg
-   date: July 2015
+   date: Novermber 2020
 ---
