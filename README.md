@@ -17,8 +17,8 @@ So, to make a new collection called "Landscape"
 * Add a folder called "Landscape" to the *img* folder
 * Place all of the images for the new collection in that Landscape folder. Make sure they are between 1600 and 2000 pixels wide.
 * Add a file called `Landscape.md` in the `_collections` folder
-* List the images with their titles in the YAML header of the new Landscape.md file.
-* Add the new collection to the `gallery/index.md` file so it appears on the Gallery page.
+* List the images with their titles in the YAML header of the new Landscape.md file. Remember to add the header image name.
+* To hide a collection, add `published: no` in the collection header.
 
 ## Galleries
 

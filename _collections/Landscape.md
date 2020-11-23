@@ -1,9 +1,8 @@
 ---
 layout: collection
-# title: Landscape
 date: November 2020
-# description: 
-image: DSC_0013-2.jpg
+# description: some lovely photos
+image: DSC_0013-2.jpg # for the header and gallery page
 images:
  - file: DSCF0844-1-1.jpg
    caption: A landscape
