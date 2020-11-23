@@ -29,7 +29,7 @@ nav:
 collections:
   collections:
     output: true
-    permalink: /:name
+    permalink: /:title
 
 # All translation keys
 translations:

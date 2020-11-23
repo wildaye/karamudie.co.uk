@@ -1,7 +1,6 @@
 ---
 layout: collection
-title: Landscape
-name: Landscape
+# title: Landscape
 date: November 2020
 # description: 
 image: DSC_0013-2.jpg
