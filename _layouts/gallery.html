@@ -21,14 +21,14 @@ layout: page
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
 		       
-<a href="{{ site.baseurl }}/{{ collection.title }}">
+<a href="{{ site.baseurl }}/{{ collection.title | slugify }}">
 <img src="{{ site.baseurl }}/img/{{ collection.title }}/{{ collection.image }}"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{collection.title}}</h3>
-							<p>{{collection.date}}</p>
+							<p>{{collection.subtitle}}</p>
 						</div>
 					</figcaption>
                        </figure>
