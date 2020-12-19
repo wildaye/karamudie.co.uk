@@ -50,7 +50,9 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 plugins:
  - jekyll-paginate
-exclude: ["README.md"]
+exclude: 
+  - "README.md"
+  - "Rakefile"
 
 # SiteMap
 sitemap:
