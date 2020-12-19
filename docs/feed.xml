@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WildAye</title>
+    <description>Photo Journal</description>
+    <link>https://wildaye.co.uk/</link>
+    <atom:link href="https://wildaye.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 19 Dec 2020 19:09:00 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2020 19:09:00 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Getting started</title>
+        <description>&lt;p&gt;I’m getting used to a new kind of website for some of my photography. My husband tells me it’s not the usual &lt;em&gt;Squarepress&lt;/em&gt; kind of site used by many, and I quite like the look of this one. I have to learn some new tricks like &lt;strong&gt;bold&lt;/strong&gt; text or &lt;em&gt;italics&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;headings&quot;&gt;Headings&lt;/h3&gt;
+&lt;p&gt;These depend on how many octothorpes you start the line with: one, for level 1, two, for level 2, and so on. This paragraph has a level 3 heading.&lt;/p&gt;
+
+&lt;p&gt;I need to remember to separate paragraphs with a blank line. Other than that, it looks quite easy. I can even embed another picture if I want to:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/journal/Cast-Aside-Web.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Cast aside&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- Notice in the body of the post, we have to add on &quot;/&quot; for the image. --&gt;
+
+&lt;!-- 
+This is an HTML comment that will be sent to the browser but not normally displayed to the user. Everything bewteen the delimiters is a comment. Handy for your own notes, but remember whatever you put here can be seen in the browser by &quot;view source&quot;.
+--&gt;
+</description>
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://wildaye.co.uk/journal/getting-started/</link>
+        <guid isPermaLink="true">https://wildaye.co.uk/journal/getting-started/</guid>
+      </item>
+    
+  </channel>
+</rss>
