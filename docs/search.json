@@ -1,0 +1,60 @@
+[
+  
+    {
+      "title"    : "Getting started",
+      "url"      : "/journal/getting-started/",
+      "date"     : "2020-11-19 00:00:00 +0000",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } 
+  
+  ,
+  
+   {
+     
+        "title"    : "Not found",
+        "url"      : "/404.html",
+        "date"     : "",
+        "content"   : "## Page not found\n\nSorry, I can't find that at the moment. Maybe scroll up and try one of the menus?\n\n<br/>"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Journal",
+        "url"      : "/journal/",
+        "date"     : "",
+        "content"   : "<head>\n<link rel=\"stylesheet\" href=\"{{ site.baseurl }}/css/journal.css\" media=\"screen\" />\n</head>\n\n<body class=\"journal\">\n<div class=\"archive\">\n  <h1 class=\"archive-title\" style=\"display:inline-block;\"> Articles </h1>\n</div>\n\n<section class=\"section--postsWrapper\">\n  <div class=\"container\">\n    <div class=\"blockGroup\">\n      <ul class=\"blockGroup-list\">\n\n{% for post in paginator.posts %}\n\n\n {% assign post = site.posts.first %}\n  {% assign content = post.content %}\n  \n<li class=\"block\">\n<div class=\"postArticle-wrapper\">\n\n<div class=\"post-preview\" style=\"border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #530720;\">\n    \n<a href=\"{{ post.url | prepend: site.baseurl }}\">\n  {% if post.feature-img %}\n\t<img src=\"{{ site.baseurl }}/{{ post.feature-img }}\">\n\t{% endif %}\n\n  <p class=\"post-title\" style=\"font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;\"> &#9658; {{ post.title }}\n  </p>\n</a>\n        {% if post.subtitle %}\n        <p class=\"post-subtitle\" style=\"font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;\"> {{ post.subtitle }}</p>\n        {% endif %}\n    \n    <p class=\"post-meta\" style=\"font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 10px; margin-left: 1em;\"> Posted on {{ post.date | date: \"%B %-d, %Y\" }}</p>\n</div>\n\n</div>\n</li>\n {% endfor %}\n<p>&nbsp;</p>\n      </ul>\n    </div>\n  </div>\n</section>\n\n\n<!-- Pager -->\n{% if paginator.total_pages > 1 %}\n<ul class=\"pager\" style=\"font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;\" >\n    {% if paginator.previous_page %}\n    <li class=\"previous\">\n        <a href=\"{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}\">&larr; Newer Posts</a>\n    </li>\n    {% endif %}\n\n<span class=\"button-height\"> Page {{paginator.page}} of {{paginator.total_pages}}</span>\n\n    {% if paginator.next_page %}\n    <li class=\"next\">\n        <a href=\"{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}\">Older Posts &rarr;</a>\n    </li>\n    {% endif %}\n</ul>\n{% endif %}\n</body>\n"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Gallery",
+        "url"      : "/gallery/",
+        "date"     : "",
+        "content"   : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Kara Mudie",
+        "url"      : "/about/",
+        "date"     : "",
+        "content"   : "<img src=\"{{ site.baseurl }}/img/nat-geo-ce-1.png\" style=\"float:left; margin: 0 5px 0 0;\" />\nHello. I am an Arts graduate and a former dancer and choreographer. I have post-graduate qualifications in primary and physical education. My key strengths are in creativity and an appreciation of the importance of our environments.\n\nAs a photographer, I like to focus on landscapes, seascapes and living things. I shoot mostly with the Fuji system. You can see some of my work here or on the social channels in the links below.\n\n<img src=\"{{ site.baseurl }}/img/RPS_LRPS_RGB.png\" style=\"display: block; margin-left: auto; margin-right: auto; width: 30%;\" />\n\n\n\n"
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]
