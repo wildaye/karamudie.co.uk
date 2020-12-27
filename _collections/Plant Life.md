@@ -12,6 +12,8 @@ images:
    copyright: © wildaye
  - file: DSC_0008-1.jpg
    copyright: © wildaye
+ - file: DSF3755 1.jpg
+   copyright: © wildaye
  - file: DSCF8380.jpg
    copyright: © wildaye
  - file: DSCF8397.jpg
