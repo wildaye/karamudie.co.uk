@@ -10,8 +10,8 @@ layout:     post                    # For posts, this should always be "post"
 active: journal                     # This is the active menu item. Normally "journal"
 # published: no                       # Comment out this line to publish the post
 # Images: in the YAML header, we use a relative path:
-feature-img: "img/journal/Cast-Aside-Web.jpg" # An image to feature on the "journals" page
-header-img: "img/journal/Cast-Aside-Web.jpg"  # This one is the header image
+feature-img: "img/journal/DSF1379.jpg" # An image to feature on the "journals" page
+header-img: "img/journal/DSF1379.jpg"  # This one is the header image
 ---
 
 I'm getting used to a new kind of website for some of my photography. My husband tells me it's not the usual *Squarepress* kind of site used by many, and I quite like the look of this one. I have to learn some new tricks like **bold** text or *italics*.

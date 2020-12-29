@@ -34,18 +34,28 @@ layout: default
                 <div class="gallery masonry-gallery">
             
     {% for image in page.images %}  
+    {% unless image.copyright %}
+        {% capture thiscopy %}&copy; {{ "now" | date: "%Y" }} {{ site.title }}{% endcapture %}
+    {% else %}
+        {% capture thiscopy %}{{ image.copyright }}{% endcapture %}
+    {% endunless %}
     
                     <figure class="gallery-item">
                         <header class='gallery-icon'>
     
-    <a href="{{ site.baseurl }}/img/{{ page.slug | uri_escape }}/{{ image.file }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-    <img src="{{ site.baseurl }}/img/{{ page.slug | uri_escape }}/{{ image.file }}"></a>
+    <a href="{{ site.baseurl }}/img/{{ page.slug | uri_escape }}/{{ image.file }}" class="popup"  title="{{ image.caption }}" data-caption="{{ thiscopy }}">
+    <!-- <img src="{{ site.baseurl }}/img/{{ page.slug | uri_escape }}/{{ image.file }}"> -->
+
+    {% capture imgpath %}{{ site.baseurl }}/img/{{ page.slug | uri_escape }}/{% endcapture %}
+    {% include picture.html path=imgpath src=image.file %}
+
+    </a>
                             
                         </header>	
                         <figcaption class='gallery-caption'>
                             <div class="entry-summary" id="{{ image.caption }}">
                                 <h3>{{image.caption}}</h3>
-                                <p>{{image.copyright}}</p>
+                                <p>{{ thiscopy }}</p>
                             </div>
                         </figcaption>
                     </figure>

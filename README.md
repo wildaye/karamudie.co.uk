@@ -23,6 +23,8 @@ So, to make a new collection called "Landscape"
 ## Galleries
 
 * Landscapes
-* Living Things
-* Plant Life
+* Black and White
 * Seascapes
+* Plant Life
+* Living Things
+* Other
