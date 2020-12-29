@@ -22,7 +22,9 @@ layout: page
 					<header class='gallery-icon'>
 		       
 <a href="{{ site.baseurl }}/{{ collection.slug | slugify }}">
-<img src="{{ site.baseurl }}/img/{{ collection.slug | uri_escape }}/{{ collection.image }}"></a>
+
+{% capture imgpath %}{{ site.baseurl }}/img/{{ collection.slug | uri_escape }}/{% endcapture %}
+{% include picture.html path=imgpath src=collection.image %}
 
 					</header>	
 					<figcaption class='gallery-caption'>

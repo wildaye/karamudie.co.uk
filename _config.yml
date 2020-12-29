@@ -1,20 +1,20 @@
 # Site settings
-title: WildAye
+title: Wild Aye
 description: "Photo Journal"
 url: "https://wildaye.co.uk"
 baseurl: ""
-facebook_username: "KaraMudiePhotography"
+facebook_username: "wildayephotography"
 instagram_username: "karmupix"
 # email: "kara@karamudie.co.uk"
-# twitter_username: "karmupix"
-# github_username:  "wildaye"
+twitter_username: "KarmuPix"
+github_username:  "wildaye"
 # deviantart_username: ""
 # flickr_username: ""
 share: true
 
 # Owner/author information
 owner:
-  name:   Kara Hood
+  name: Kara Hood
   avatar: avatar.png
   favicon: favicon.ico
   info: Photographer
@@ -28,6 +28,7 @@ nav:
 
 collections:
   collections:
+    sort_by: order
     output: true
     permalink: /:slug
 

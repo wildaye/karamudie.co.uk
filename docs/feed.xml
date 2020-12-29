@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WildAye</title>
+    <title>Wild Aye</title>
     <description>Photo Journal</description>
     <link>https://wildaye.co.uk/</link>
     <atom:link href="https://wildaye.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Dec 2020 10:52:12 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Dec 2020 10:52:12 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Dec 2020 18:51:38 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Dec 2020 18:51:38 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
