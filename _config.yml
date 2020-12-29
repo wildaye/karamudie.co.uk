@@ -50,11 +50,19 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 plugins:
  - jekyll-paginate
+ - jekyll-webp
 exclude: 
   - "README.md"
   - "Rakefile"
 
-# SiteMap
+webp:
+  enabled: true
+  quality: 75
+  img_dir: ["/img/"]
+  nested: true
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+  regenerate: false
+
 sitemap:
     file: "/sitemap.xml"
     exclude:
