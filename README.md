@@ -28,3 +28,19 @@ So, to make a new collection called "Landscape"
 * Plant Life
 * Living Things
 * Other
+
+## Images
+
+All images should be sized no more than 1600 pixels on the longest edge:
+
+```sh
+$ mogrify -resize 1600 *.jpg
+```
+
+Exif and other embedded information should be removed:
+
+```sh
+$ mogrify -strip *.jpg
+```
+
+The `rake` task will rebuild the site, including running the webp plugin to make lightweight files for display within a gallery. The jpgs remain for the lightbox to use. Head images are still also jpgs.
