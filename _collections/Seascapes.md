@@ -9,7 +9,6 @@ images:
  - file: DSCF4264.jpg
  - file: DSCF7389.jpg
  - file: DSCF8709.jpg
- - file: DSCF7581 1.jpg
  - file: DSCF8581.jpg
  - file: DSCF9005.jpg
  - file: DSF3690 1.jpg
