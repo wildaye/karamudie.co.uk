@@ -12,6 +12,9 @@ images:
  - file: DSCF8153.jpg
  - file: DSC_0007-3.jpg
  - file: DSCF7581 1.jpg
+ - file: Bass No mark.jpg
+ - file: Bridge Mirror.jpg
+ - file: DSF2347 1.jpg
  - file: DSCF8918.jpg
  - file: DSCF9214.jpg
  - file: DSCF7724.jpg
