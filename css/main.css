@@ -47,6 +47,14 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+
+#about-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
 .navbar-custom {
   background-color: transparent;
   position: absolute;
@@ -307,8 +315,6 @@ footer .copyright {
   margin: 0;
   font-size: 0.85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
   -moz-transition: top 0.3s ease,opacity 0.3s ease;
@@ -400,7 +406,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+
 }
 .fa-stack-2x {
  color: black;
