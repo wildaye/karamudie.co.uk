@@ -1,12 +1,11 @@
 ---
 layout: page
-title: "About me"
+title: "About"
 description: "Wild Aye Photography"
+logo: "Wild Aye Logo White 200.png"
 active: about
 header-img: "img/about-bg.jpg"
 ---
-
-<center><img src="/img/Wild Aye Logo White 200.png"></center>
 
 Hello. I am an Arts graduate and a former dancer and choreographer. I have post-graduate qualifications in primary and physical education. My key strengths are in creativity and an appreciation of the importance of our environments.
 
