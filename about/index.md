@@ -7,9 +7,21 @@ active: about
 header-img: "img/about-bg.jpg"
 ---
 
-Hello. I am an Arts graduate and a former dancer and choreographer. I have post-graduate qualifications in primary and physical education. My key strengths are in creativity and an appreciation of the importance of our environments.
+My early career was in dance and theatre where I developed an aptitude for choreography, costume and set design. Now, as an educator, I teach primary children a varied curriculum including experience in the outdoors, appreciating, conserving and connecting to nature.
 
-As a photographer, I like to focus on landscapes, seascapes and living things. I shoot mostly with the Fuji system. You can see some of my work here or on the social channels in the links below.
+Creativity runs as a major transferable skill throughout my career, creativity is my passion. As it once featured in dance, it now features in my photography and teaching. As long as I remember, I have loved nature and going on an adventure into the great outdoors to explore, to inspire and to share with others.
+
+My ancestors were fisher folk of the East Neuk of Fife who sailed the North Seas to the Faroe Islands, and country dwellers who tended the landscapes of Perthshire. The influences of these roots are in my attitudes and lifestyle preferences and may be hinted at in my work. 
+
+Based in Scotland, Wild Aye photography loves landscape and seascapes, wind and waves, flora, fauna and food. I also quite like people, too.
+
+<hr/>
+
+I am proud to be a member of the Royal Photographic Society, and to apply the National Geographic and Nature First principles to my outdoor and photography practice.
+
+<div align="center"><em>"Leave no trace"</em></div>
+
+<br/>
 
 <div class="gallery masonry-gallery">
     <figure class="gallery-item">
