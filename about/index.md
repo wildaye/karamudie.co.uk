@@ -17,7 +17,7 @@ Based in Scotland, Wild Aye photography loves landscape and seascapes, wind and 
 
 <hr/>
 
-I am proud to be a member of the Royal Photographic Society, and to apply the National Geographic and Nature First principles to my outdoor and photography practice.
+I am proud to be a member of the Royal Photographic Society. I am committed to applying the National Geographic and Nature First principles to my outdoor and photography practice.
 
 <div align="center"><em>"Leave no trace"</em></div>
 
