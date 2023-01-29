@@ -22,4 +22,5 @@ images:
  - file: DSF0118.jpg
  - file: Frozen-Loch-Garry-scaled.jpg
  - file: Loch-Ba-2.jpg
+ - file: DSF5032.jpg
 ---
