@@ -3,10 +3,10 @@
   <channel>
     <title>Wild Aye</title>
     <description>Photo Journal</description>
-    <link>https://wildaye.co.uk/</link>
-    <atom:link href="https://wildaye.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Jan 2023 17:18:08 +0000</pubDate>
-    <lastBuildDate>Sun, 29 Jan 2023 17:18:08 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 30 Jan 2023 20:23:34 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Jan 2023 20:23:34 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -28,8 +28,8 @@ This is an HTML comment that will be sent to the browser but not normally displa
 --&gt;
 </description>
         <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-        <link>https://wildaye.co.uk/journal/getting-started/</link>
-        <guid isPermaLink="true">https://wildaye.co.uk/journal/getting-started/</guid>
+        <link>http://localhost:4000/journal/getting-started/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/getting-started/</guid>
       </item>
     
   </channel>
