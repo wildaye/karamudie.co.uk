@@ -21,7 +21,7 @@ images:
  - file: DSCF2575.jpg
  - file: DSCF2583.jpg
  - file: DSCF6776.jpg
- - file: DSF3496 1.JPG
+ - file: DSF3496 1.jpg
  - file: DSF1050.jpg
  - file: DSF1066.jpg
  - file: DSF3300.jpg
