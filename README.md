@@ -27,6 +27,7 @@ So, to make a new collection called "Landscape"
 * Seascapes
 * Plant Life
 * Living Things
+* Bothies and Barns
 * Other
 
 ## Images

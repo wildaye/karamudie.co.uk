@@ -2,7 +2,7 @@
 layout: collection
 # subtitle: November 2020
 order: 22
-description: Be still and listen.<br/>The Earth is singing...
+description: Be still and listen.<br/>The Earth is singing...<br><br>
 image: DSCF9684.jpg # for the header and gallery page
 images:
  - file: DSF1453.jpg
@@ -15,5 +15,6 @@ images:
  - file: DSCF9148 1.jpg
  - file: DSCF9684.jpg
  - file: DSF3007.jpg
+ - file: DSC_0753-2.jpg
 ---
 

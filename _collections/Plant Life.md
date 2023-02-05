@@ -16,4 +16,7 @@ images:
  - file: DSCF8730-1.jpg
  - file: DSCF8737.jpg
  - file: DSCF8847 1.jpg
+ - file: DSCF1340.jpg
+ - file: DSCF3102.jpg
+ - file: DSF5973.jpg
 ---

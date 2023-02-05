@@ -17,4 +17,13 @@ images:
  - file: R0000748.jpg
  - file: DSF2927.jpg
  - file: DSCF4047 1.jpg
+ - file: DSF5177.jpg
+ - file: DSCF2575.jpg
+ - file: DSCF2583.jpg
+ - file: DSCF6776.jpg
+ - file: DSF3496 1.JPG
+ - file: DSF1050.jpg
+ - file: DSF1066.jpg
+ - file: DSF3300.jpg
+ - file: DSF3409.jpg
 ---
