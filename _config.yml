@@ -23,7 +23,7 @@ owner:
 nav:
   - HOME: "/"
   - GALLERY: "/gallery/"  
-  - JOURNAL: "/journal/"
+  - JOURNAL: https://wildaye.substack.com/
   - ABOUT: "/about/"
 
 collections:
